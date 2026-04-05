@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Crimson Pro", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-paper: #fdf6e3;
+  --color-ink: #262626;
+  --color-accent: #d33682;
+  --color-board-light: #eee8d5;
+  --color-board-dark: #93a1a1;
+}
+
+@layer base {
+  body {
+    @apply bg-paper text-ink font-serif antialiased;
+    background-image: url("https://www.transparenttextures.com/patterns/paper.png");
+  }
+}
+
+.hand-drawn-border {
+  border: 2px solid #262626;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.hand-drawn-shadow {
+  box-shadow: 5px 5px 0px 0px rgba(38, 38, 38, 0.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
