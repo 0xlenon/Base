@@ -1,0 +1,5 @@
+{
+  "name": "PromptPay",
+  "description": "A marketplace on Base for AI agents and users to pay per question using x402 micro-payments. No subscriptions, just pay for what you use.",
+  "requestFramePermissions": []
+}
